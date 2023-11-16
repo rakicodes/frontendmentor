@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 12px;
+    height: 100vh;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.bg-color-body { 
+    background:hsl(30, 38%, 92%);
+}
+
+.button {
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #1a2420;
+}
+
+.w-700 { 
+    width: 600px;
+}
+
+.bg-color-white { 
+    background:#fff;
+}
+
+.white {
+    color: #fff;
+}
+
+.primary {
+    color: #23282c;
+}
+
+.secondary {
+    color:#9fa0a2;
+}
+
+.tertiary {
+    color: hsl(158, 36%, 37%);
+}
+
+.bg-tertiary {
+    background-color: hsl(158, 36%, 37%);
+}
+
+.text-sm {
+    font-size: 12px;
+}
+
+.text-lg {
+    font-size: 32px;
+}
+
+.text-xl {
+    font-size: 38px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.cg-1 {
+    column-gap: 12px;
+}
+
+.p-2 {
+    padding: 24px;
+}
+
+.br-1 {
+    border-radius: 12px;
+}
+
+.br-right-1 {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.br-left-1 {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.crossout {
+    text-decoration: line-through;
+}
+
+.lh-1 {
+    line-height: 1;
+}
+
+.lh-2 {
+    line-height: 1.5;
+}
+
+.ls-1 {
+    letter-spacing: 5px;
+}
+
+.font-1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-2 {
+    font-family: 'Fraunces', serif;
+}
+
+@media screen and (max-width: 500px) {
+    #product-preview-card {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .product-img {
+        width: 100%;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;    
+    }
+
+    .product-card {
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        row-gap: 12px;    
+
+    }
+}

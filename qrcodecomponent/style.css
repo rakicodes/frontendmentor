@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    padding: 12px 0;
+}
+
+p {
+    font-size: 15px;
+}
+
+.text-1 {
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.qr-img {
+    width: 220px;
+}
+
+.container {
+    width: 250px;
+}
+
+.br-1 {
+    border-radius: 12px;
+}
+
+.px-1 {
+    padding: 0 12px;
+}
+
+.pt-1 {
+    padding-top: 12px;
+}
+
+.pb-2 {
+    padding-bottom: 36px;
+}
+
+.rg-1 {
+    row-gap: 12px;
+}
+
+.flex {
+    display: flex;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.white {
+    color: hsl(0, 0%, 100%);
+}
+
+.bg-white {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.bg-primary {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.primary {
+    color: hsl(218, 44%, 22%);
+}
+
+.secondary {
+    color:  hsl(220, 15%, 55%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position: fixed;
+    bottom: 12px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        width: 300px;
+    }
+
+    .qr-img {
+        width: 270px;
+    }
+}

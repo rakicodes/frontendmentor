@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+<body class="bg-tertiary flex col align-center justify-center p-2">
+
+  <!-- Rating state start -->
+
+  <div id="rating" class="container flex col justify-center p-2 rg-2">
+
+    <div class="circle">
+      <img src="./images/icon-star.svg" class="star" />
+    </div>
+
+    <h3 class="secondary font-lg">How did we do?</h3>
+
+    <p class="tertiary">Please let us know how we did with your support request. All feedback is appreciated 
+    to help us improve our offering!</p>
+  
+
+    <form action="" class="flex col rg-2">
+      <ul class="flex tertiary justify-space-between">
+        <li><button class="circle button circle-button tertiary" value="1">1</button></li>
+        <li><button class="circle button circle-button tertiary" value="2">2</button></li>
+        <li><button class="circle button circle-button tertiary" value="3">3</button></li>
+        <li><button class="circle button circle-button tertiary" value="4">4</button></li>
+        <li><button class="circle button circle-button tertiary" value="5">5</button></li>
+      </ul>
+      
+      <div type="submit" class="secondary bg-primary button br-2 p-1 text-center submit-button">Submit</div>    
+    </form>
+  </div>
+
+
+  <!-- Rating state end -->
+
+
+  <!-- Thank you state start -->
+
+  <div id="thankyou" class="container flex col justify-center p-2 rg-2 align-center hidden">
+    <img src="./images/illustration-thank-you.svg" />
+
+    <p class="primary bg-secondary p-1 br-2">You selected <span id="userRating"></span> out of 5</p>
+
+    <span class="secondary font-lg">Thank you!</span>
+  
+    <p class="tertiary text-center">We appreciate you taking the time to give a rating. If you ever need more support, 
+    don’t hesitate to get in touch!</p>
+  </div>
+
+  <!-- Thank you state end -->
+
+  
+  <div class="attribution pos-bottom">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.github.com/rakicodes">@rakicodes</a>.
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>

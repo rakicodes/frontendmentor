@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+</head>
+<body class="bg-main">
+
+  <div class="bg-card flex flex-wrap card p-1 br-1 rg-1">
+    <a class="nft" href="#">
+      <div class="view-container br-1 flex align-center justify-center">
+        <img src="./images/icon-view.svg" />
+      </div>
+      <img class="nft-img w-100" src="./images/image-equilibrium.jpg" alt="Equilibrium image" />
+    </a>
+
+    <a href="#" class="w-100 bold ts-2">Equilibrium #3429</a>
+    <p class="primary thin ts-1">Our Equilibrium collection promotes balance and calm.</p>
+
+    <div class="w-50 flex align-center">
+      <img src="./images/icon-ethereum.svg" />
+      <span class="secondary pl-1 regular">0.041 ETH</span>
+    </div>
+
+    <div class="w-50 flex justify-end align-center">
+      <img src="./images/icon-clock.svg" />
+      <span class="primary pl-1 thin">3 days left</span>
+    </div>
+
+    <div class="line w-100"></div>
+
+    <div class="flex align-center">
+      <img class="avatar-img" src="./images/image-avatar.png" alt="Jules Wyvern avatar"/>
+      <span class="primary pl-1 thin">Creation of <a href="#" class="">Jules Wyvern</a></span>
+    </div>
+
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/rakicodes">@rakicodes</a>.
+  </div>
+</body>
+</html>

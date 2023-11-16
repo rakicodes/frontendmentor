@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+  <div id="container">
+    <div id="result-summary-component" class="flex-row w-desktop">
+      <div id="result" class="inner-container flex-col br-1 p-2 w-50 rg-2 justify-space-between">
+        <h2 class="text-center text-md">
+          Your Result
+        </h2>
+        <div class="flex-col rg-1 justify-space-between grow-1">
+          <div class="flex-row justify-center">
+            <div id="result-score" class="circle-icon text-center">
+              <span class="text-xl bold white">76</span><br>
+              <span class="text-sm">of 100</span>
+            </div>
+          </div>
+          <div class="flex-col grow-1 rg-1 justify-space-evenly">
+            <span class="text-center text-lg bold white">
+              Great
+            </span>
+            <p class="text-center text-sm">
+              You scored higher than 65% of the people who have taken these tests.
+            </p>  
+          </div>
+        </div>
+      </div>
+      <div class="inner-container flex-col border-right-1 p-2 w-50 rg-1 justify-space-between shadow">
+        <h2 class="primary text-md">
+          Summary
+        </h2>
+        <div class="flex-col rg-1">
+          <div class="flex-row p-1 br-1 justify-space-between bgcolor-1">
+            <div class="flex-row align-center cg-1">
+              <img src="./assets/icon-reaction.svg"/>
+              <span class="color-1">Reaction</span>
+            </div>
+            <div class="flex-row align-center cg-1 bold secondary"><span class="primary">80</span>/ 100</div>
+          </div>
+    
+          <div class="flex-row p-1 br-1 justify-space-between bgcolor-2">
+            <div class="flex-row align-center cg-1">
+              <img src="./assets/icon-memory.svg"/>
+              <span class="color-2">Memory</span>
+            </div>
+            <div class="flex-row align-center cg-1 bold secondary"><span class="primary">92</span> / 100</div>
+          </div>
+        
+          <div class="flex-row p-1 br-1 justify-space-between bgcolor-3">
+            <div class="flex-row align-center cg-1">
+              <img src="./assets/icon-verbal.svg"/>
+              <span class="color-3">Verbal</span>
+            </div>
+            <div class="flex-row align-center cg-1 bold secondary"><span class="primary">60</span> / 100</div>
+          </div>
+    
+          <div class="flex-row p-1 br-1 justify-space-between bgcolor-4">
+            <div class="flex-row align-center cg-1">
+              <img src="./assets/icon-visual.svg"/>
+              <span class="color-4">Visual</span>
+            </div>
+            <div class="flex-row align-center cg-1 bold secondary"><span class="primary">72</span> / 100</div> 
+          </div>
+        </div>
+        <div class="w-100 py-1 br-4 text-center bg-primary white button">
+          Continue
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/rakicodes">@rakicodes</a>.
+    </div>  
+  </div>
+</body>
+</html>

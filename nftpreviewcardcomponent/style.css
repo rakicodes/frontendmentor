@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.ts-1 {
+    font-size: 16px;
+}
+
+.ts-2 {
+    font-size: 18px;
+}
+
+.nft-img {
+    width: 250px;
+    border-radius: 12px;
+}
+
+.nft {
+    position: relative;
+}
+
+.view-container {
+    background-color:hsl(178, 100%, 50%);
+    width: 252px;
+    height: 252px;
+    position: absolute;
+    opacity: 0;
+}
+
+.view-container:hover {
+    opacity: 1;
+    background-color:hsla(178, 100%, 50%, 0.5);
+}
+
+
+.avatar-img {
+    width: 30px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+}
+
+.card {
+    width: 300px;
+}
+
+.line {
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: hsl(228, 45%, 44%);
+    position: fixed;
+    bottom: 24px;
+}
+.attribution a { 
+    color:hsl(215, 51%, 70%);
+}
+
+.primary { 
+    color: hsl(215, 51%, 70%);
+}
+
+.secondary {
+    color: hsl(178, 100%, 50%);
+}
+
+.white { 
+    color: hsl(0, 0%, 100%);
+}
+
+.bg-main { 
+    background: hsl(217, 54%, 11%);
+}
+
+.bg-card {
+    background: hsl(216, 50%, 16%);
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.pl-1 {
+    padding-left: 6px;
+}
+
+.p-1 {
+    padding: 24px;
+}
+
+.br-1 {
+    border-radius: 12px;
+}
+
+.rg-1 {
+    row-gap: 18px;
+}
+
+.thin {
+    font-weight: 300;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 600;
+}
