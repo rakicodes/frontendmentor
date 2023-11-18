@@ -15,6 +15,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
+#### Desktop
+<img width="653" alt="Screen Shot 2023-11-16 at 1 24 22 PM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/980cad9b-f708-434f-9ee8-20551bf9aa52">
+
+#### Mobile
+<img width="283" alt="Screen Shot 2023-11-16 at 1 24 38 PM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/d31484b4-4505-4e0c-9068-32f2026fa45c">
+
 
 ### Links
 
