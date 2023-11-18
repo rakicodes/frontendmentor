@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url("./images/pattern-background-desktop.svg") no-repeat;
+    background-size: 100% 50%;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position: fixed;
+    bottom: 12px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.container {
+    width: 350px;
+}
+.bg-3 {
+    background: hsla(225, 100%, 94%, 0.208);
+}
+.bg-2 {
+    background: hsl(245, 75%, 52%);
+}
+.bg-1 {
+    background: hsl(225, 100%, 98%);
+}
+.primary {
+    color: hsl(223, 47%, 23%);
+}
+.secondary {
+    color: hsl(224, 23%, 55%);
+}
+.tertiary {
+    color: hsl(225, 100%, 98%);
+}
+.color-4 {
+    color: hsl(245, 75%, 52%);
+}
+.flex {
+    display: flex;
+}
+.w-100 {
+    width: 100%;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.align-center {
+    align-items: center;
+}
+.cg-1 {
+    column-gap: 12px;
+}
+.rg-1 {
+    row-gap: 18px;
+}
+.grow-1 {
+    flex-grow: 1;
+}
+.br-1 {
+    border-radius: 12px;
+}
+.br-top-1 {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.text-end {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+.underline {
+    text-decoration: underline;
+}
+.regular {
+    font-weight: 500;
+}
+.bold {
+    font-weight: 700;
+}
+.bolder {
+    font-weight: 900;
+}
+.p-1 {
+    padding: 12px;
+}
+.p-2 {
+    padding: 24px;
+}
+.pt-1 {
+    padding-top: 12px;
+}
+.lh-1 {
+    line-height: 1.5;
+}
+.fs-1 {
+    font-size: 14px;
+}
+.box-shadow-1 {
+    box-shadow: 0px 12px 18px 2px hsla(245, 75%, 52%, 0.113);
+}
+.button {
+    cursor: pointer;
+}
+.tertiary-btn:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.primary-btn:hover {
+    opacity: 0.6;
+}
+
+.secondary-btn:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+@media screen and (max-width: 420px) {
+    body {
+        background: url("./images/pattern-background-mobile.svg") no-repeat;
+        background-size: 100% 50%;
+    }
+}
