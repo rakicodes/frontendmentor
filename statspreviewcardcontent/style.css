@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position: fixed;
+    bottom: 12px;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+.card-img {
+    background: hsl(277, 64%, 61%) url("./images/image-header-desktop.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    opacity: 0.8;
+    order: 1;
+    border-radius: 0 12px 12px 0;
+}
+.bg-1 {
+    background-color: hsl(233, 47%, 7%);
+}
+.bg-2 {
+    background-color:  hsl(244, 38%, 16%);
+}
+.primary {
+    color: hsl(0, 0%, 100%);
+}
+.secondary {
+    color: hsla(0, 0%, 100%, 0.75)
+}
+.secondary-2 {
+    color:  hsla(0, 0%, 100%, 0.6);
+}
+.tertiary {
+    color: hsl(277, 64%, 61%);
+}
+.flex {
+    display: flex;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.col {
+    flex-direction: column;
+}
+.align-self-start {
+    align-self: start;
+}
+.align-center {
+    align-items: center;
+}
+.cg-2 {
+    column-gap: 36px;
+}
+.rg-1 {
+    row-gap: 2px;
+}
+.w-50 {
+    width: 50%;
+}
+.w-100 {
+    width: 100%;
+}
+.card-width {
+    width: 1000px;
+}
+.card-height {
+    height: 440px;
+}
+.card-info {
+    order: 1;
+}
+.p-2 {
+    padding: 50px;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.br-1 {
+    border-radius: 12px;
+}
+.lh-1 {
+    line-height: 28px;
+}
+.lh-2 {
+    line-height: 48px;
+}
+.ls-2 {
+    letter-spacing: 2px;
+}
+.font-2 {
+    font-family: 'Lexend Deca', sans-serif;
+}
+.fs-12 {
+    font-size: 12px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-32 {
+    font-size: 32px;
+}
+.bold {
+    font-weight: 400;
+}
+.bolder {
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1050px) {
+    body {
+        height: auto;
+        position: relative;
+        top: 40px;
+        flex-direction: column;
+        row-gap: 24px;
+    }
+    .attribution {
+        position: relative;
+        height: 40px;
+        display: flex;
+        align-items: end;
+        bottom: 8px;
+    }
+    .w-50 {
+        width: 100%;
+    }
+    .p-2 {
+        padding: 24px;
+    }
+    .text-center {
+        text-align: center;
+    }
+    .mobile-col {
+        flex-direction: column;
+    }
+    .card-width {
+        width: 320px;
+    }
+    .card-height {
+        height: 730px;
+    }
+    .card-img {
+        order: 1;
+        height: 230px;
+        border-radius: 12px 12px 0 0;
+        background: hsl(277, 64%, 61%) url("./images/image-header-mobile.jpg");
+        background-size: contain;
+    }
+    .card-info {
+        order: 2;
+    }
+    .rg-1 {
+        row-gap: 12px;
+    }
+}
