@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Frontend Mentor | Profile card component</title>
+
+</head>
+<body class="bg-main">
+  <div class="relative z-0">
+    <img  class="bg-circle pos-top-left fixed" src="./images/bg-pattern-top.svg" alt="background image">
+    <img class="bg-circle pos-bottom-right fixed" src="./images/bg-pattern-bottom.svg" alt="background image">
+  </div>
+
+  <div class="flex wrap card-width card-height bg-card br-1 relative z-1">
+    <div class="flex wrap h-70">
+      <div class="relative w-100">
+        <img class="w-100 br-t-1" src="./images/bg-pattern-card.svg" alt="background image"/>
+        <img class="absolute pos-avatar br-100 border-1" src="./images/image-victor.jpg" alt="Victor profile picture"/>
+      </div>
+      <div class="flex align-self-end text-center align-center justify-center rg-1 cg-1 wrap w-100">
+        <h2 class="fs-2 bold">Victor Crest</h2>
+        <span class="color-1 fs-2">26</span>
+        <span class="w-100 color-1">London</span>  
+      </div>
+    </div>
+    
+    <div class="line-1 w-100"></div>
+  
+    <div class="flex space-evenly w-100 text-center">
+      <div>
+        <span class="bold fs-2">80K</span>
+        <h4 class="pt-1 regular color-1 ls-1">Followers</h4>  
+      </div>
+    
+      <div>
+        <span class="bold fs-2">803K</span>
+        <h4 class="pt-1 regular color-1 ls-1">Likes</h4>  
+      </div>
+    
+      <div>
+        <span class="bold fs-2">1.4K</span>
+        <h4 class="pt-1 regular color-1 ls-1">Photos</h4>  
+      </div>
+    </div>
+  
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>

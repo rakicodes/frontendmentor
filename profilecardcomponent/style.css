@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position: absolute;
+    bottom: 12px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    max-height: auto;
+}
+.bg-main {
+    background: hsl(185, 75%, 39%);
+}
+.bg-card {
+    background: hsl(240, 11%, 98%);
+}
+.relative {
+    position: relative;
+}
+.fixed {
+    position: fixed;
+}
+.absolute {
+    position: absolute;
+}
+.z-0 {
+    z-index: 0;
+}
+.z-1 {
+    z-index: 1;
+}
+.bg-circle {
+    width: 1200px;
+}
+.pos-bottom-right {
+    bottom: -750px;
+    right: -450px;
+}
+.pos-top-left {
+    top: -600px;
+    left: -500px;
+}
+.br-1 {
+    border-radius: 12px;
+}
+.br-t-1 {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.br-100 {
+    border-radius: 100%;
+}
+.pos-avatar {
+    bottom: -15px;
+    left: 35%;
+}
+.border-1 {
+    border: 4px solid hsl(240, 11%, 98%);
+}
+.flex {
+    display: flex;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.w-50 {
+    width: 50%;
+}
+.w-100 {
+    width: 100%;
+}
+.card-width {
+    width: 350px;
+}
+.card-height {
+    height: 360px;
+}
+.h-70 {
+    height: 70%;
+}
+.align-self-end {
+    align-self: end;
+}
+.text-center {
+    text-align: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+.cg-1 {
+    column-gap: 12px;
+}
+.rg-1 {
+    row-gap: 12px;
+}
+.space-evenly {
+    justify-content: space-evenly;
+}
+.pt-1 {
+    padding-top: 12px;
+}
+.line-1 {
+    border-top: 0.5px solid hsl(0, 0%, 59%);
+}
+.color-1 {
+    color: hsl(0, 0%, 59%);
+}
+.bold {
+    font-weight: 700;
+}
+.regular {
+    font-weight: 400;
+}
+.fs-2 {
+    font-size: 18px;
+}
+.ls-1 {
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 400px) {
+    .card-width {
+        width: 320px;
+    }
+    .pos-bottom-right {
+        bottom: -800px;
+        right: -900px;
+    }
+    .pos-top-left {
+        top: -800px;
+        left: -950px;
+    }
+}
