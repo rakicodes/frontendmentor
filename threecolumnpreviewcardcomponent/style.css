@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+h3 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+p {
+    line-height: 22px;
+    font-size: 15px;
+}
+.card-icon {
+    width: 48px;
+}
+.card {
+    height: 400px;
+}
+.container {
+    width: 850px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: rgb(45, 42, 42);
+    position: absolute;
+    bottom: 12px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.flex {
+    display: flex;
+}
+.col {
+    flex-direction: column;
+}
+.rg-1 {
+    row-gap: 20px;
+}
+.justify-between {
+    justify-content: space-between;;
+}
+.bgcolor-1 {
+    background: hsl(31, 77%, 52%);
+}
+.bgcolor-2 {
+    background: hsl(184, 100%, 22%);
+}
+.bgcolor-3 {
+    background: hsl(179, 100%, 13%);
+}
+.bg-primary {
+    background: hsl(0, 0%, 95%);
+}
+.color-primary {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.color-secondary {
+    color: hsl(0, 0%, 95%);
+}
+.color-1 {
+    color: hsl(31, 77%, 52%);
+}
+.color-2 {
+    color: hsl(184, 100%, 22%);
+}
+.color-3 {
+    color: hsl(179, 100%, 13%);
+}
+.br-card-1 {
+    border-radius: 8px 0 0 8px;
+}
+.br-card-2 {
+    border-radius: 0 8px 8px 0;
+}
+.br-2 {
+    border-radius: 48px;
+}
+.p-1 {
+    padding: 12px;
+}
+.p-2 {
+    padding: 30px;
+}
+.button {
+    cursor: pointer;
+    width: 160px;
+    text-align: center;
+}
+.button:hover {
+    border: 1.5px solid hsl(0, 0%, 95%);
+    background-color: hsla(0, 0%, 95%, 0);
+    color: hsl(0, 0%, 95%);
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        height: auto;
+        padding: 24px 0 48px 0;
+    }
+    .container {
+        flex-direction: column;
+        width: 330px;
+    }
+    .card {
+        height: 350px;
+        padding-bottom: 35px;
+    }
+    .br-card-1 {
+        border-radius: 8px 8px 0 0;
+    }
+    .br-card-2 {
+        border-radius: 0 0 8px 8px;
+    }
+    .attribution {
+        bottom: 4px;
+    }
+}
