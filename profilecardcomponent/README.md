@@ -20,7 +20,11 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Mobile
+<img width="154" alt="Screen Shot 2023-11-25 at 1 39 16 PM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/27bdd59e-968a-48a6-852e-7dd2c1d0c63e">
+
+#### Desktop
+<img width="590" alt="Screen Shot 2023-11-25 at 1 39 06 PM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/8d61786a-45ec-4853-9df0-e2a602ad97c6">
 
 
 ### Links
