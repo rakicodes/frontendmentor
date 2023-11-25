@@ -24,13 +24,17 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Desktop
+<img width="590" alt="Screen Shot 2023-11-25 at 1 41 34 PM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/dafeab56-b8c5-4c04-a9c2-065464e0878b">
+
+#### Mobile
+<img width="154" alt="Screen Shot 2023-11-25 at 1 41 25 PM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/d2b8076b-1641-429d-b419-a5da690ffaa6">
 
 
 ### Links
 
 - Solution URL: [Github](https://github.com/rakicodes/frontendmentor/tree/main/threecolumnpreviewcardcomponent)
-- Live Site URL: [Live Site](https://frontendmentorchallenges-rakicodes.netlify.app/threecolumncardcomponent/)
+- Live Site URL: [Live Site](https://frontendmentorchallenges-rakicodes.netlify.app/threecolumnpreviewcardcomponent/)
 
 ## My process
 
