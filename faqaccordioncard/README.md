@@ -41,10 +41,12 @@ Users should be able to:
 - HTML5 
 - CSS 
 - Flexbox
+- JavaScript
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Raquel](https://raquelgo.netlify.app/)
+- Frontend Mentor - [@rakicodes](https://www.frontendmentor.io/profile/rakicodes)
+- Twitter - [@rakicodes](https://www.twitter.com/rakicodes)
+
 
