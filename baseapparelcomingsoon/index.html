@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+</head>
+<body>
+
+  <div class="main flex">
+    <img id="logo" class="align-self-start py-1 px-2" src="./images/logo.svg"/>
+
+    <div id="content" class="flex flex-wrap px-2 py-2 w-50 col rg-200 justify-center">
+      <div class="flex flex-wrap rg-2 col">
+        <h1 class="bold primary uppercase fs-2 ls-1 lh-2"><span class="thin secondary">We're</span><br>coming<br>soon</h1>
+        <p class="secondary regular fs-1 lh-1 w-75">
+          Hello fellow shoppers! We're currently building our new fashion store. 
+          Add your email below to stay up-to-date with announcements and our launch deals.
+        </p>
+        <div class="flex col rg-1">
+          <form id="form" class="w-75 secondary flex align-center relative" name="form" novalidate>
+            <input id="email" name="email" class="input-border w-100 p-1 br-1" type="email" placeholder="Email Address" required>
+            <button class="absolute" type="submit"><img src="./images/icon-arrow.svg"/></button>
+            <img id="email-error-icon" class="absolute hidden" src="./images/icon-error.svg" alt="error icon">
+          </form>
+          <span id="email-error-msg" class="hidden error pl-1 fs-xs">Please provide a valid email</span>  
+        </div>
+      </div>
+      
+    </div>
+
+    <div id="hero" class="w-50">
+      <div class="hero-img min-h"></div>
+    </div>
+  </div>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.github.com/rakicodes">@rakicodes</a>.
+    </p>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
