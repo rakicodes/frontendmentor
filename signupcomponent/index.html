@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+</head>
+<body class="bg-primary">
+  <div class="flex px-3 py-2 cg-1 flex-wrap rg-2">
+    <div class="flex col w-50 justify-center rg-2">
+      <h1 class="bold white fs-3">
+        Learn to code by watching others
+      </h1>
+      <p class="medium fs-2 white lh-1">
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. 
+      </p>
+    </div>
+    <div class="flex col rg-1 w-50 fs-2">
+      <div class="bg-accent br-2 px-1 py-1 flex text-center justify-center">
+        <p class="semi-bold white">Try it free 7 days <span class="regular">then $20/mo. thereafter</span></p>
+      </div>
+      <form id="signup-form" name="form" class="flex col rg-1 semi-bold neutral-primary bg-white br-2 p-2" novalidate>
+
+        <div class="flex col text-right rg-0">
+          <div id="fn-input-container" class="relative">
+            <input id="fn-input" name="fn" class="w-100 br-1 px-2 py-1" type="text" placeholder="First Name" required>
+          </div>
+          <span id="fn-error" class="error italic fs-1 regular"></span>  
+        </div>
+
+        <div class="flex col text-right rg-0">
+          <div id="ln-input-container" class="relative">
+            <input id="ln-input" name="ln" class="w-100 br-1 px-2 py-1" type="text" placeholder="Last Name" required>
+          </div>
+          <span id="ln-error" class="error italic fs-1 regular"></span>  
+        </div>
+
+        <div class="flex col text-right rg-0">
+          <div id="email-input-container" class="relative">
+            <input id="email-input" name="email" class="w-100 br-1 px-2 py-1" type="email" placeholder="Email" required>
+          </div>
+          <span id="email-error" class="error italic fs-1 regular"></span>
+        </div>
+
+        <div class="flex col text-right rg-0">
+          <div id="pw-input-container" class="relative">
+            <input id="pw-input" name="pw" class="w-100 br-1 px-2 py-1" type="password" placeholder="Password" required>
+          </div>
+          <span id="pw-error" class="error italic fs-1 regular"></span>
+  
+        </div>
+
+        <button class="bg-secondary uppercase semi-bold white br-2 py-1" type="submit">Claim your free trial </button>
+        <p class="medium fs-1 neutral-secondary text-center">By clicking the button, you are agreeing to our <a href="#" class="semi-bold primary">Terms and Services</a></p>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.github.com/rakicodes">@rakicodes</a>.
+    </p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
