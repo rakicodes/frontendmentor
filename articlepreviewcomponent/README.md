@@ -13,8 +13,6 @@ This is a solution to the [Article preview component challenge on Frontend Mento
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -26,7 +24,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Desktop
+<img width="794" alt="Screen Shot 2023-12-19 at 10 55 53 AM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/93c51406-f634-41c2-a201-66401ee6a6d5">
+
+#### Mobile
+<img width="207" alt="Screen Shot 2023-12-19 at 10 56 13 AM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/bc575ac3-16c9-4c0f-a296-64274c7759e8">
 
 
 ### Links
