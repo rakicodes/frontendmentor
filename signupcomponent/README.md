@@ -26,12 +26,24 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Desktop
+<img width="793" alt="Screen Shot 2023-12-19 at 11 10 53 AM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/60af38eb-93ac-4628-8446-42fba2b93ad1">
+
+#### Mobile
+<img width="207" alt="Screen Shot 2023-12-19 at 11 11 04 AM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/c7bcefd8-32bf-4c69-be7c-a53eccc94b1c">
+<img width="206" alt="Screen Shot 2023-12-19 at 11 11 13 AM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/fc4b5449-c0c7-4eaa-a403-52bd1677ef8a">
+
+#### Error on Desktop
+<img width="791" alt="Screen Shot 2023-12-19 at 11 11 46 AM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/e17bc25a-6cd0-4639-b1be-15ce05f0246d">
+
+#### Error on Mobile
+<img width="205" alt="Screen Shot 2023-12-19 at 11 11 58 AM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/6bebd938-f9b8-4925-b2e3-e69fa99291d9">
+
 
 ### Links
 
-- Solution URL: [Github](https://github.com/rakicodes/frontendmentor/tree/main/singlepricegridcomponent)
-- Live Site URL: [Live Site](https://frontendmentorchallenges-rakicodes.netlify.app/singlepricegridcomponent/)
+- Solution URL: [Github](https://github.com/rakicodes/frontendmentor/tree/main/signupcomponent/)
+- Live Site URL: [Live Site](https://frontendmentorchallenges-rakicodes.netlify.app/signupcomponent/)
 
 ## My process
 
