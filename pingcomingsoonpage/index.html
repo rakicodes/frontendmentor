@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+  <script src="https://kit.fontawesome.com/e49407ea2b.js" crossorigin="anonymous"></script>
+
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+<body class="p-2 rg-1">
+  <header>
+    <img src="./images/logo.svg" alt="Ping logo">
+  </header>
+
+  <main class="flex col align-center rg-1">
+    <h1 class="neutral-primary thin">
+      We are launching <span class="neutral-secondary bold">soon!</span>
+    </h1>
+    <span class="neutral-secondary thin fs-2">
+      Subscribe and get notified
+    </span>
+  
+    <form class="w-100 flex flex-wrap cg-0 p-2" id="email-form" name="form" novalidate>
+      <div id="email-container" class="flex col grow-2 justify-center">
+        <input class="br-1 p-1 thin w-100" type="email" name="email" id="email-input" placeholder="Your email address..." required>
+        <span id="email-error" class="error italic fs-error pl-1"></span>
+      </div>
+      <button class="br-1 p-1 grow-1 bg-primary white regular" type="submit">Notify Me</button>
+    </form>
+
+    <div class="py-1">
+      <img src="./images/illustration-dashboard.png" alt="Ping dashboard illustration">
+    </div>
+  </main>
+  
+
+  <footer class="flex col rg-0 thin">
+    <div class="flex col align-center rg-1">
+      <div class="flex cg-1">
+        <div class="br-100 border-1 icon">
+          <i class="fa-brands fa-facebook-f primary"></i>
+        </div>
+        <div class="br-100 border-1 icon">
+          <i class="fa-brands fa-x-twitter primary"></i>
+        </div>
+        <div class="br-100 border-1 icon">
+          <i class="fa-brands fa-instagram primary"></i>
+        </div>
+      </div>
+      <span class="neutral-primary fs-1">  
+        &copy; Copyright Ping. All rights reserved.
+      </span>
+    </div>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/rakicodes">@rakicodes</a>.
+    </p>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
