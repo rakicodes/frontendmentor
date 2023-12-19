@@ -28,7 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Desktop
+<img width="792" alt="Screen Shot 2023-12-19 at 11 02 44 AM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/f676d798-7f32-44d5-92be-cf81808985d6">
+
+#### Mobile
+<img width="207" alt="Screen Shot 2023-12-19 at 11 02 53 AM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/07327925-f86d-4684-b61b-d493264f3732">
+<img width="207" alt="Screen Shot 2023-12-19 at 11 03 11 AM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/cf280cea-94a8-462a-9319-2f3b536228ea">
+
 
 
 ### Links
@@ -43,6 +49,7 @@ Users should be able to:
 - HTML5
 - CSS
 - Flexbox
+- Javascript
 
 ### Useful resources
 
