@@ -23,8 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Desktop
+<img width="792" alt="Screen Shot 2023-12-19 at 11 06 13 AM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/ad7bc30e-f26d-450b-9a7b-9e144bdbd2c7">
 
+#### Mobile
+<img width="206" alt="Screen Shot 2023-12-19 at 11 06 29 AM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/6ce5debd-7db1-42f8-957b-be1b8b669eef">
+<img width="205" alt="Screen Shot 2023-12-19 at 11 06 38 AM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/1d3410f0-6b24-42c0-bd06-2707ca1fe434">
 
 ### Links
 
