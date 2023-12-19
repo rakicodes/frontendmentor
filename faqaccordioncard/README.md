@@ -12,7 +12,6 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
   - [Built with](#built-with)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -26,7 +25,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Desktop
+<img width="792" alt="Screen Shot 2023-12-19 at 10 47 35 AM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/bc3fdb82-93a2-4808-ba70-a3d0a1161fb6">
+
+#### Mobile
+<img width="206" alt="Screen Shot 2023-12-19 at 10 47 46 AM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/3252bae3-8d90-4015-aad7-31d9229b1ccb">
 
 
 ### Links
