@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon-32x32.png" />
+
+		<title>Frontend Mentor | Age calculator app</title>
+
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+			rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="./style.css" />
+	</head>
+	<body class="bg-primary">
+		<div
+			id="container"
+			class="flex flex-wrap bg-white br-2 br-rb-4 p-2 rg-2">
+			<form
+				id="birthday-form"
+				class="flex flex-wrap w-100 rg-2"
+				name="form"
+				novalidate>
+				<div
+					id="input-container"
+					class="flex cg-1 w-100">
+					<div class="flex col rg-1">
+						<label
+							for="day"
+							class="tertiary regular sm uppercase ls-1"
+							>Day</label
+						>
+						<input
+							id="day-input"
+							class="w-100 regular md br-1 p-1"
+							type="number"
+							name="day"
+							placeholder="DD"
+							required />
+						<span
+							id="day-error"
+							class="light italic error xs"></span>
+					</div>
+
+					<div class="flex col rg-1">
+						<label
+							for="month"
+							class="tertiary regular sm uppercase ls-1"
+							>Month</label
+						>
+						<input
+							id="month-input"
+							class="w-100 regular md br-1 p-1"
+							type="number"
+							name="month"
+							placeholder="MM"
+							required />
+						<span
+							id="month-error"
+							class="light italic error xs"></span>
+					</div>
+
+					<div class="flex col rg-1">
+						<label
+							for="day"
+							class="tertiary regular sm uppercase ls-1"
+							>Year</label
+						>
+						<input
+							id="year-input"
+							class="w-100 regular md br-1 p-1"
+							type="number"
+							name="year"
+							placeholder="YYYY"
+							required />
+						<span
+							id="year-error"
+							class="light italic error xs"></span>
+					</div>
+				</div>
+				<div
+					id="button-container"
+					class="flex justify-center w-100">
+					<div class="line w-100"></div>
+					<button type="submit">
+						<img
+							src="./assets/images/icon-arrow.svg"
+							alt="arrow icon" />
+					</button>
+				</div>
+			</form>
+
+			<div class="flex col w-100 lg">
+				<span class="regular secondary italic"
+					><span
+						id="years"
+						class="bold primary pr-1"
+						>--</span
+					>years</span
+				>
+				<span class="regular secondary italic"
+					><span
+						id="months"
+						class="bold primary pr-1"
+						>--</span
+					>months</span
+				>
+				<span class="regular secondary italic"
+					><span
+						id="days"
+						class="bold primary pr-1"
+						>--</span
+					>days</span
+				>
+			</div>
+		</div>
+
+		<div class="attribution">
+			Challenge by
+			<a
+				href="https://www.frontendmentor.io?ref=challenge"
+				target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="https://github.com/rakicodes">@rakicodes</a>.
+		</div>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
