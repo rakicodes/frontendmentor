@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body class="medium">
+
+  <!-- Sign-up form start -->
+  
+  <div id="container" class="flex col bg-white">
+    <div id="signup-illustration"></div>
+
+    <div id="content" class="flex col p-2 rg-2">
+      <h1 class="bold primary">Stay updated!</h1>
+
+      <p class="regular secondary">Join 60,000+ product managers receiving monthly updates on:</p>
+      
+      <ul class="regular secondary flex col rg-1">
+        <li>
+          Product discovery and building what matters
+        </li>
+        <li>
+          Measuring to ensure updates are a success
+        </li>
+        <li>
+          And much more!
+        </li>
+      </ul>
+      
+      <form id="email-form" class="flex col rg-2" name="form" novalidate>
+        <div class="flex col rg-1">
+          <div class="flex space-between">
+            <label for="email" class="bold primary small">Email address</label>
+            <span id="error-msg" class="bold error small"></span>  
+          </div>
+          <input id="email-input" type="email" name="email" placeholder="email@company.com" class="regular tertiary border-1 br-1 p-1" required>
+        </div>
+        <button type="submit" class="bold bg-primary white br-1 p-1">Subscribe to monthly newsletter</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+
+  <div id="success-container" class="flex col p-2 space-between min-h-100 bg-white hidden">
+    <div class="flex col rg-2 pt-4">
+      <img id="success-icon" src="./assets/images/icon-success.svg" alt="icon success">
+
+      <h1 class="bold primary">
+        Thanks for subscribing!
+      </h1>
+      <p class="regular secondary">
+        A confirmation email has been sent to <span class="bold primary">ash@loremcompany.com</span>. 
+        Please open it and click the button inside to confirm your subscription.
+      </p>
+    </div>
+    <button class="bold white bg-primary p-1 br-1 ">Dismiss message</button>
+  </div>
+
+  <!-- Success message end -->
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/rakicodes">@rakicodes</a>.
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
