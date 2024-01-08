@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Frontend Mentor | Notifications page</title>
+
+
+</head>
+<body class="bg-secondary px-1 py-2">
+
+  <div class="container bg-white">
+    <div class="flex align-center justify-between pb-2">
+      <div class="flex flex-wrap align-center cg-0">
+        <h1 class="tertiary bold">Notifications</h1>
+        <span id="notif-num" class="bg-primary px-1 py-0 br-0 white">3</span>  
+      </div>
+  
+      <span id="mark-as-read" class="secondary button">Mark all as read</span>  
+    </div>
+    <div class="flex col rg-1">
+      <div class="notifications unread flex align-start p-1 pb-2 cg-1 br-1 bg-secondary">
+        <img src="./assets//images/avatar-mark-webber.webp" alt="Mark Webber profile image">
+        <div class="flex col">
+          <div class="flex flex-wrap align-center cg-0">
+            <a href="#" class="bold tertiary">Mark Webber</a>
+            <span class="secondary">reacted to your recent post</span>
+            <a href="#" class="bold secondary">My first tournament today!</a> 
+            <div id="n-1-icon" class="red-dot"></div>  
+          </div>
+          <span class="color-4">1m ago</span>
+        </div>
+      </div>
+      <div class="notifications unread flex align-start p-1 pb-2 cg-1 br-1 bg-secondary">
+        <img src="./assets/images/avatar-angela-gray.webp" alt="Angela Gray profile image">
+        <div class="flex col">
+          <div class="flex flex-wrap align-center cg-0">
+            <a href="#" class="bold tertiary">Angela Gray</a>
+            <span class="secondary">followed you</span>
+            <div id="n-2-icon" class="red-dot"></div>  
+          </div>
+          <span class="color-4">5m ago</span>
+        </div>
+      </div>
+      <div class="notifications unread flex align-start p-1 pb-2 cg-1 br-1 bg-secondary">
+        <img src="./assets/images/avatar-jacob-thompson.webp" alt="Jacob Thompson profile image">
+        <div class="flex col">
+          <div class="flex flex-wrap align-center cg-0">
+            <a href="#" class="bold tertiary">Jacob Thompson</a>
+            <span class="secondary">has joined your group</span> 
+            <a href="#" class="bold primary">Chess Club</a>
+            <div id="n-3-icon" class="red-dot"></div>  
+          </div>
+          <span class="color-4">1 day ago</span>
+        </div>
+      </div>
+      <div class="notifications flex align-start p-1 pb-2 cg-1 br-1">
+        <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin profile image">
+        <div class="flex col">
+          <div class="flex flex-wrap align-center cg-0">
+            <a class="bold tertiary" href="#">Rizky Hasanuddin</a>
+            <span class="secondary">sent you a private message</span>
+            <div id="n-4-icon"></div>  
+          </div>
+          <p class="color-4 pb-1">5 days ago</p>
+          <div class="secondary link-container b-1 p-1 br-1">
+            <a href="#" class="secondary">
+              Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="notifications flex align-start p-1 pb-2 cg-1 br-1">
+        <img src="./assets/images/avatar-kimberly-smith.webp" alt="Kimberly Smith profile image">
+        <div class="flex justify-between grow-1">
+          <div>
+            <div class="flex flex-wrap align-center cg-0">
+              <a href="#" class="bold tertiary">Kimberly Smith</a>
+              <p class="secondary">commented on your picture</p>
+              <div id="n-5-icon"></div>  
+            </div>
+            <span class="color-4">1 week ago</span>  
+          </div>
+          <div>
+            <img src="./assets/images/image-chess.webp" alt="One of your photos">
+          </div>
+        </div>
+      </div>
+      <div class="notifications flex align-start p-1 pb-2 cg-1 br-1">
+        <img src="./assets/images/avatar-nathan-peterson.webp" alt="Nathan Peterson profile image">
+        <div class="flex col">
+          <div class="flex flex-wrap align-center cg-0">
+            <a href="#" class="bold tertiary">Nathan Peterson</a>
+            <span class="secondary">reacted to your recent post</span>
+            <a href="#" class="bold secondary">5 end-game strategies to increase your win rate</a>
+            <div id="n-6-icon"></div>  
+          </div>
+          <span class="color-4">2 weeks ago</span>
+        </div>
+      </div>
+      <div class="notifications flex align-start p-1 pb-2 cg-1 br-1">
+        <img src="./assets/images/avatar-anna-kim.webp" alt="Anna Kim">
+        <div class="flex col">
+          <div class="flex flex-wrap align-center cg-0">
+            <a href="#" class="bold tertiary">Anna Kim</a>
+            <span class="secondary">left the group</span>
+            <a href="#" class="bold primary">Chess Club</a>  
+            <div id="n-7-icon"></div>  
+          </div>
+          <span class="color-4">2 weeks ago</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.github.com/rakicodes">@rakicodes</a>.
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
