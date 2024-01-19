@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png" />
+
+		<title>Frontend Mentor | Expenses chart component</title>
+
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap"
+			rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="./style.css" />
+	</head>
+	<body class="bg-primary p-2">
+		<div
+			id="container"
+			class="flex col rg-1 w-100">
+			<div class="flex space-between accent-primary tertiary br-1 p-2">
+				<div class="flex col">
+					<h4 class="regular sm">My balance</h4>
+					<span class="bold md"> $921.48 </span>
+				</div>
+				<img
+					id="logo"
+					src="./images/logo.svg"
+					alt="logo" />
+			</div>
+			<div class="flex col rg-1 bg-secondary primary br-1 p-2">
+				<h3 class="bold md">Spending - Last 7 days</h3>
+				<div class="flex space-between cg-1 pb-1 secondary regular sm">
+					<div class="flex col justify-end rg-1 align-center h-100 w-100">
+						<span id="mon-amount"></span>
+						<div
+							id="mon"
+							class="bar"></div>
+						<span>mon</span>
+					</div>
+					<div class="flex col justify-end rg-1 align-center h-100 w-100">
+						<span id="tue-amount"></span>
+						<div
+							id="tue"
+							class="bar"></div>
+						<span>tue</span>
+					</div>
+					<div class="flex col justify-end rg-1 align-center h-100 w-100">
+						<span id="wed-amount"></span>
+						<div
+							id="wed"
+							class="bar"></div>
+						<span>wed</span>
+					</div>
+					<div class="flex col justify-end rg-1 align-center h-100 w-100">
+						<span id="thu-amount"></span>
+						<div
+							id="thu"
+							class="bar"></div>
+						<span>thu</span>
+					</div>
+					<div class="flex col justify-end rg-1 align-center h-100 w-100">
+						<span id="fri-amount"></span>
+						<div
+							id="fri"
+							class="bar"></div>
+						<span>fri</span>
+					</div>
+					<div class="flex col justify-end rg-1 align-center h-100 w-100">
+						<span id="sat-amount"></span>
+						<div
+							id="sat"
+							class="bar"></div>
+						<span>sat</span>
+					</div>
+					<div class="flex col justify-end rg-1 align-center h-100 w-100">
+						<span id="sun-amount"></span>
+						<div
+							id="sun"
+							class="bar"></div>
+						<span>sun</span>
+					</div>
+				</div>
+				<div class="line"></div>
+				<div class="flex space-between pt-1">
+					<div class="flex col">
+						<h4 class="secondary regular sm">Total this month</h4>
+						<span class="bold md"> $478.33 </span>
+					</div>
+					<div class="flex col align-end justify-end">
+						<span class="bold sm"> +2.4% </span>
+						<h4 class="secondary regular sm">from last month</h4>
+					</div>
+				</div>
+			</div>
+			<div></div>
+		</div>
+
+		<div class="attribution">
+			Challenge by
+			<a
+				href="https://www.frontendmentor.io?ref=challenge"
+				target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="https://wwww.github.com/rakicodes">@rakicodes</a>.
+		</div>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
