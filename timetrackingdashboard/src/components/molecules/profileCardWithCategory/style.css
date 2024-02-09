@@ -1,0 +1,4 @@
+.profile-card-with-category-container {
+    display: flex;
+    flex-direction: column;
+}

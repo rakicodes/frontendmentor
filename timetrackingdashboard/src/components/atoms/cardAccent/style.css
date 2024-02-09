@@ -1,0 +1,10 @@
+.card-accent-container {
+    height: 48px;
+    border-radius: 8px;
+    position: relative;
+}
+.icon-img {
+    width: 55px;
+    position: absolute;
+    right: 12px;
+}

@@ -1,0 +1,16 @@
+.card-with-top-accent-container {
+    width: 31%;
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 419px) {
+    .card-with-top-accent-container {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 420px) and (max-width: 620px) {
+    .card-with-top-accent-container {
+        width: 45%;
+    }
+}
