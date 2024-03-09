@@ -33,7 +33,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Mobile
+<img width="281" alt="Screen Shot 2024-03-09 at 2 27 41 PM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/09f1aba8-fd4f-438c-8e79-8c2fe1a4e32f">
+
+#### Desktop
+<img width="1280" alt="Screen Shot 2024-03-09 at 2 27 24 PM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/390d6230-fbfd-4608-a5b5-7510590613c1">
+
 
 ### Links
 
