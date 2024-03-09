@@ -26,7 +26,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Mobile
+<img width="281" alt="Screen Shot 2024-03-09 at 2 58 38 PM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/4e42f32c-235c-4462-9646-86daef042f2b">
+
+#### Desktop
+<img width="1280" alt="Screen Shot 2024-03-09 at 2 58 23 PM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/9010e3ba-44b8-48ca-b622-f0907658167d">
 
 ### Links
 
