@@ -1,0 +1,186 @@
+[
+	{
+		"title": "Age Calculator",
+		"description": "",
+		"imageUrl": "./images/placeholder.png",
+		"techUsed": "HTML5,CSS,JavaScript,Flexbox",
+		"siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/agecalculator/",
+		"codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/agecalculator"
+	},
+	{
+		"title": "Article Preview Component",
+		"description": "",
+		"imageUrl": "./images/placeholder.png",
+		"techUsed": "HTML5,CSS,JavaScript,Flexbox",
+		"siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/articlepreviewcomponent/",
+		"codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/articlepreviewcomponent"
+	},
+    {
+        "title": "Base Apparel Coming Soon Page",
+        "description": "",
+		"imageUrl": "./images/placeholder.png",
+        "techUsed": "HTML5,CSS,JavaScript,Flexbox",
+        "siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/baseapparelcomingsoon/",
+        "codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/baseapparelcomingsoon"
+    },
+    {
+        "title": "FAQ Accordion Card",
+        "description": "",
+		"imageUrl": "./images/placeholder.png",
+        "techUsed": "HTML5,CSS,JavaScript,Flexbox",
+        "siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/faqaccordioncard/",
+        "codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/faqaccordioncard"
+    },
+    {
+        "title": "Four Card Feature Section",
+        "description": "",
+		"imageUrl": "./images/placeholder.png",
+        "techUsed": "HTML5,CSS,Flexbox",
+        "siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/fourcardfeaturesection/",
+        "codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/fourcardfeaturesection"
+    },
+    {
+        "title": "Huddle Landing Page With Single Intro Section",
+        "description": "",
+		"imageUrl": "./images/placeholder.png",
+        "techUsed": "HTML5,CSS,Flexbox",
+        "siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/huddlelandingpagewithsingleintrosection/",
+        "codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/huddlelandingpagewithsingleintrosection"
+    },
+    {
+        "title": "Interactive Card Details Form",
+        "description": "",
+		"imageUrl": "./images/placeholder.png",
+        "techUsed": "HTML5,CSS,Flexbox",
+        "siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/interactivecarddetailsform/",
+        "codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/interactivecarddetailsform"
+    },
+    {
+        "title": "Interactive Rating Component",
+        "description": "",
+		"imageUrl": "./images/placeholder.png",
+        "techUsed": "HTML5,CSS,JavaScript,Flexbox",
+        "siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/interactiveratingcomponent/",
+        "codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/interactiveratingcomponent"
+    },
+    {
+        "title": "News Home Page",
+        "description": "",
+		"imageUrl": "./images/placeholder.png",
+        "techUsed": "HTML5,CSS,JavaScript,Flexbox",
+        "siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/newshomepage/",
+        "codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/newshomepage"
+    },
+    {
+        "title": "Newsletter Sign Up",
+        "description": "",
+		"imageUrl": "./images/placeholder.png",
+        "techUsed": "HTML5,CSS,JavaScript,Flexbox",
+        "siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/newslettersignup/",
+        "codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/newslettersignup"
+    },
+    {
+        "title": "NFT Preview Card Component Card",
+        "description": "",
+		"imageUrl": "./images/placeholder.png",
+        "techUsed": "HTML5,CSS,Flexbox",
+        "siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/nftpreviewcardcomponent/",
+        "codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/nftpreviewcardcomponent"
+    },
+    {
+        "title": "Notification Page",
+        "description": "",
+		"imageUrl": "./images/placeholder.png",
+        "techUsed": "HTML5,CSS,JavaScript,Flexbox",
+        "siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/notificationspage/",
+        "codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/notificationspage"
+    },
+    {
+        "title": "Order Summary Component",
+        "description": "",
+		"imageUrl": "./images/placeholder.png",
+        "techUsed": "HTML5,CSS,Flexbox",
+        "siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/ordersummarycomponent/",
+        "codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/ordersummarycomponent"
+    },
+    {
+        "title": "Ping Coming Soon Page",
+        "description": "",
+		"imageUrl": "./images/placeholder.png",
+        "techUsed": "HTML5,CSS,JavaScript,Flexbox",
+        "siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/pingcomingsoonpage/",
+        "codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/pingcomingsoonpage"
+    },
+    {
+        "title": "Product Preview Card Component",
+        "description": "",
+		"imageUrl": "./images/placeholder.png",
+        "techUsed": "HTML5,CSS,Flexbox",
+        "siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/productpreviewcardcomponent/",
+        "codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/productpreviewcardcomponent"
+    },
+    {
+        "title": "Profile Card Component",
+        "description": "",
+		"imageUrl": "./images/placeholder.png",
+        "techUsed": "HTML5,CSS,Flexbox",
+        "siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/profilecardcomponent/",
+        "codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/profilecardcomponent"
+    },
+    {
+        "title": "QR Code Component",
+        "description": "",
+		"imageUrl": "./images/placeholder.png",
+        "techUsed": "HTML5,CSS,Flexbox",
+        "siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/qrcodecomponent/",
+        "codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/qrcodecomponent"
+    },
+    {
+        "title": "Result Summary Component",
+        "description": "",
+		"imageUrl": "./images/placeholder.png",
+        "techUsed": "HTML5,CSS,Flexbox",
+        "siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/resultsummarycomponent/",
+        "codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/resultsummarycomponent"
+    },
+    {
+        "title": "Sign Up Component",
+        "description": "",
+		"imageUrl": "./images/placeholder.png",
+        "techUsed": "HTML5,CSS,JavaScript,Flexbox",
+        "siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/signupcomponent/",
+        "codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/signupcomponent/"
+    },
+    {
+        "title": "Single Price Grid Component",
+        "description": "",
+		"imageUrl": "./images/placeholder.png",
+        "techUsed": "HTML5,CSS,Flexbox",
+        "siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/singlepricegridcomponent/",
+        "codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/singlepricegridcomponent"
+    },
+    {
+        "title": "Social Proof Section",
+        "description": "",
+		"imageUrl": "./images/placeholder.png",
+        "techUsed": "HTML5,CSS,Flexbox",
+        "siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/socialproofsection/",
+        "codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/socialproofsection"
+    },
+    {
+        "title": "Stats Preview Card Content",
+        "description": "",
+		"imageUrl": "./images/placeholder.png",
+        "techUsed": "HTML5,CSS,Flexbox",
+        "siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/statspreviewcardcontent/",
+        "codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/statspreviewcardcontent"
+    },
+    {
+        "title": "Three Columns Preview Card Component",
+        "description": "",
+		"imageUrl": "./images/placeholder.png",
+        "techUsed": "HTML5,CSS,Flexbox",
+        "siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/threecolumnpreviewcardcomponent/",
+        "codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/threecolumnpreviewcardcomponent"
+    }
+]
