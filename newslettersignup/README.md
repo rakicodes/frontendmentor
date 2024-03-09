@@ -33,15 +33,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Mobile
+<img width="280" alt="Screen Shot 2024-03-09 at 2 56 56 PM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/3ebcbe28-6f7d-46e0-ad36-dada3be4d9a9">
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+#### Desktop
+<img width="1280" alt="Screen Shot 2024-03-09 at 2 56 28 PM" src="https://github.com/rakicodes/frontendmentor/assets/101219940/2ffc3f89-53a9-4646-a43c-28e92fb6d676">
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
