@@ -8,14 +8,6 @@
 		"codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/advicegenerator"
 	},
 	{
-		"title": "Age Calculator",
-		"description": "",
-		"imageUrl": "./images/agecalculator.png",
-		"techUsed": "HTML5,CSS,JavaScript,Flexbox",
-		"siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/agecalculator/",
-		"codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/agecalculator"
-	},
-	{
 		"title": "Article Preview Component",
 		"description": "",
 		"imageUrl": "./images/articlepreviewcomponent.png",
@@ -198,14 +190,6 @@
         "techUsed": "HTML5,CSS,Flexbox",
         "siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/threecolumnpreviewcardcomponent/",
         "codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/threecolumnpreviewcardcomponent"
-    },
-    {
-        "title": "Time Tracking Dashboard",
-        "description": "",
-		"imageUrl": "./images/placeholder.png",
-        "techUsed": "HTML5,CSS,Javascript,React,Flexbox",
-        "siteUrl": "https://frontendmentorchallenges-rakicodes.netlify.app/timetrackingdashboard/",
-        "codeUrl": "https://github.com/rakicodes/frontendmentor/tree/main/timetrackingdashboard"
     },
     {
         "title": "Tip Calculator",
