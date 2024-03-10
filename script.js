@@ -1,17 +1,18 @@
 fetch("challenges.json")
     .then((res) => res.json())
     .then((data) => createChallenges(data))
+    .then(() => hideLoading())
 
-document.addEventListener("readystatechange", toggleLoading)
-
-function toggleLoading() {
+function hideLoading() {
     const loadingBar = document.getElementById("loading-bar")
+    const overlays = document.querySelectorAll(".overlay")
     const challenges = document.getElementById("challenges")
-    if (document.readyState === "complete") {
-        challenges.classList.remove("hidden")
-        loadingBar.classList.add("hidden")
-    }
+    loadingBar.classList.add("hidden")
+    overlays.forEach((overlay) => overlay.classList.remove("hidden"))
+    challenges.classList.remove("hidden")
+
 }
+
 
 function createChallenges(data) {
     const challengeDiv = document.getElementById("challenges")
@@ -26,7 +27,7 @@ function createChallenges(data) {
 function createCard(challenge) {
     return `
         <img class="br-1" src="${challenge.imageUrl}" alt="${challenge.title} Preview"/>
-        <div class="overlay w-full h-full absolute z-1 top-left">
+        <div class="overlay w-full h-full absolute z-1 top-left hidden">
             <div class="card br-1 flex grow-1 col w-full h-full align-center justify-between">
                 <h2 class="pt-1">${challenge.title}</h2>
                 <div class="flex col rg-1 pb-1">
